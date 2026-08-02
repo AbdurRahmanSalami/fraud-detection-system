@@ -12,7 +12,8 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 const phishingExample =
   "Urgent! Your bank account has been suspended. Click the link immediately and confirm your password to restore access.";
