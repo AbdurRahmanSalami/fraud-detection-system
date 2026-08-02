@@ -1,0 +1,25 @@
+{
+    "dataset": "Phishing_Email.csv",
+    "total_clean_rows": 17522,
+    "training_rows": 12265,
+    "validation_rows": 2628,
+    "testing_rows": 2629,
+    "best_threshold": 0.23,
+    "validation_macro_f1": 0.9857649042520346,
+    "test_accuracy": 0.9851654621529099,
+    "test_precision": 0.9796541200406917,
+    "test_recall": 0.9806517311608961,
+    "test_f1": 0.9801526717557252,
+    "test_macro_f1": 0.9841546838887949,
+    "test_roc_auc": 0.9976405907426574,
+    "confusion_matrix": [
+        [
+            1627,
+            20
+        ],
+        [
+            19,
+            963
+        ]
+    ]
+}
