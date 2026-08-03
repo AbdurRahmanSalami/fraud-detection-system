@@ -4,6 +4,10 @@ FraudGuard AI is a machine-learning web application that detects phishing emails
 
 The system uses TF-IDF feature extraction and a Multinomial Naïve Bayes classifier. It provides a prediction, phishing probability, safe-email probability, confidence score and risk level through a React dashboard.
 
+## Live Demo
+
+https://fraudguard-ai-phi.vercel.app
+
 ## Model Performance
 
 | Metric | Result |
